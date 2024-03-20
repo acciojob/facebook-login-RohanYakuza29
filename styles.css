@@ -1,1 +1,107 @@
 /*  your css code here. If applicable */
+body {
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+figure > figcaption {
+  margin-right: 8%;
+  line-break: strict;
+  margin-top: 3%;
+  font-size: 30px;
+  font-weight: bold;
+  display: inline-block;
+  flex-direction: column;
+  position: relative;
+  z-index: -1;
+  overflow: auto;
+  text-wrap: nowrap;
+  gap: 40px;
+  margin-bottom: 25%;
+  z-index: -1;
+  padding-top: 30px;
+  right: 30px;
+  top: 62px;
+}
+figure > img {
+  margin: 10px 0px 5px 0px;
+  padding: 0px;
+  position: absolute;
+  z-index: -1;
+  left: 56px;
+  top: 62px;
+}
+a {
+  text-decoration: none;
+  color: #1877f2;
+  margin-left: 20px;
+  padding: 3px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin: 0.0025% 0.0025%;
+}
+section > img {
+  width: 450px;
+  margin-top: 70px;
+  display: inline-block;
+}
+#form_right {
+  height: 250px;
+  width: 300px;
+  background-color: white !important;
+  display: flex;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  z-index: -1;
+  left: 35%;
+  top: 20%;
+  margin-bottom: 48%;
+  gap: 40px;
+}
+#form_right > form > input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  line-height: 30px;
+  width: 290px;
+  margin: 0.0025% 0.0025%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+#log_in > button {
+  background-color: #1877f2;
+  border-radius: 5px;
+  padding: 10px 20px;
+  line-height: 30px;
+  width: 309px;
+  margin: 0.0025% 0.0025%;
+
+  align-items: center;
+  color: white;
+  border-style: #1877f2 solid;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border: 1px solid;
+}
+#create_acc > button {
+  background-color: #42b72a;
+  border-radius: 5px;
+  padding: 10px 20px;
+  line-height: 30px;
+  width: 309px;
+  margin: 0.0025% 0.0025%;
+  align-items: center;
+  color: white;
+  border: 1px;
+  border-style: #42b72a solid;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
